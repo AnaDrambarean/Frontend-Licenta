@@ -1,0 +1,17 @@
+[{ "id": 1, "activitate": "Estimare număr participanți", "complete": false },
+{ "id": 2, "activitate": "Rezervare locație în funcție de numărul de participanți", "complete": false },
+{ "id": 3, "activitate": "Alegeți tematica evenimentului", "complete": false },
+{ "id": 4, "activitate": "Estimați bugetul", "complete": false },
+{ "id": 5, "activitate": "Stabiliți momentele artistice", "complete": false },
+{ "id": 6, "activitate": "Stabiliți și contractați formația/DJ-ul", "complete": false },
+{ "id": 7, "activitate": "Contractați serviciile foto-video", "complete": false },
+{ "id": 8, "activitate": "Alegeți tipul de invitație", "complete": false },
+{ "id": 9, "activitate": "Trimiteți invitația către participanți", "complete": false },
+{ "id": 10, "activitate": "Alegeți elementele de decor", "complete": false },
+{ "id": 11, "activitate": "Trimiteți remindere către participanți pentru confirmarea participării", "complete": false },
+{ "id": 12, "activitate": "Stabiliți numărul de meniuri și tipul acestora", "complete": false },
+{ "id": 13, "activitate": "Confirmați numărul de meniuri", "complete": false },
+{ "id": 14, "activitate": "Verificați ultimele detalii tehnice și de decor", "complete": false },
+{ "id": 15, "activitate": "Contractați serviciile de barman", "complete": false },
+{ "id": 16, "activitate": "Confirmați numărul de persoane și transmiteți barmanului", "complete": false }
+]
