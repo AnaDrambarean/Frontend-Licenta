@@ -12,11 +12,9 @@ import { useHttpClient } from "../../shared/hooks/http-hook";
 import { AuthOContext } from "../../shared/context/authO-context";
 import "./EventForm.css";
 
-
 const NewEvent = () => {
   const authO = useContext(AuthOContext);
   const { isLoading, error, sendRequest, clearError } = useHttpClient();
-  
 
   const [formState, inputHandler] = useForm(
     {
@@ -47,7 +45,7 @@ const NewEvent = () => {
       formData.append("date", formState.inputs.date.value);
       console.log(formState.inputs.date);
       await sendRequest("http://localhost:5000/api/events", "POST", formData, {
-        Authorization: "Bearer " + authO.tokenO,
+        Authorization: "Bearer " + authO.token,
       });
       console.log(formData.date);
       history.push("/");
